@@ -1,7 +1,7 @@
 import warnings
 import mlflow
 import mlflow.sklearn
-import dagshub
+import os
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -17,8 +17,8 @@ warnings.filterwarnings("ignore")
 # SET MLFLOW + DAGSHUB
 # =========================================================
 
-dagshub.init(repo_owner='lisaapLI', repo_name='ModellingExspLilisApr', mlflow=True)
-mlflow.set_experiment("Diabetes_Classification_Basic")
+mlflow.set_tracking_uri("https://dagshub.com/lisaapLI/ModellingExspLilisApr.mlflow")
+mlflow.set_experiment("Diabetes_Classification_CI")
 
 # =========================================================
 # LOAD DATASET
