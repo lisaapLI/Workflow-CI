@@ -1,0 +1,3 @@
+Link GitHub Membangun_model: https://github.com/lisaapLI/Membangun_model
+Link GitHub Workflow-CI: https://github.com/lisaapLI/Workflow-CI
+Link DagsHub: https://dagshub.com/lisaapLI/ModellingExspLilisApr
